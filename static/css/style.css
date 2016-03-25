@@ -1,0 +1,101 @@
+body
+{
+	font-family: 'Crimson Text', serif;
+}
+
+.summary
+{
+	font-family: inherit;
+}
+
+code
+{
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    white-space: nowrap;
+    border-radius: 4px;
+	border: none;
+}
+
+code, pre
+{
+    font-family: Monaco, Menlo, Consolas, 'Courier New', monospace;
+}
+
+a
+{
+    color: #428bca;
+    text-decoration: none;
+}
+
+.small
+{
+	font-size: 85%;
+}
+
+.post-tag
+{
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 1.42857143;
+	word-wrap: break-word;
+	box-sizing: border-box;
+	background-color: transparent;
+}
+
+.post-tag a
+{
+	padding: 0 10px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 12px;
+	color: rgba(0, 0, 0, 0.3);
+	text-decoration: none;
+	transition: color, border-color, background-color 0.1s linear;
+}
+
+figure *
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+	text-align: center;
+}
+
+figure figcaption h4
+{
+	font-size: 100%;
+}
+
+table
+{
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+table th, table td
+{
+	padding: 10px;
+	border: 1px solid #888;
+}
+
+table th
+{
+	background-color: rgba(0, 0, 0, 0.03);
+	font-weight: bolder;
+	text-align: center;
+}
+
+div.lightGallery
+{
+	margin: 0 auto;
+	max-width: 80%; 
+}
+
+div.lightGallery>a>img
+{
+	width: 200px;
+}
+
+

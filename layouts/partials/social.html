@@ -18,10 +18,10 @@
         </li> {{ end }} {{ if .Site.Params.linkedin }}
         <!-- Linkedin -->
         <li class="navigation__item">
-            <a href="http://www.linkedin.com/in/{{ .Site.Params.linkedin }}/en" title="Linkedin"> <i class='fa fa-linkedin'></i> <span class="label">Linkedin</span> </a>
+            <a href="http://www.linkedin.com/in/{{ .Site.Params.linkedin }}/en" title="{{ .Site.Params.linkedin }} on Linkedin"> <i class='fa fa-linkedin'></i> <span class="label">Linkedin</span> </a>
         </li> {{ end }} {{ if .Site.Params.xing }}
         <li class="navigation__item">
-            <a href="http://www.xing.com/profile/{{ .Site.Params.xing }}" title="Xing"> <i class='fa fa-xing'></i> <span class="label">Xing</span> </a>
+            <a href="http://www.xing.com/profile/{{ .Site.Params.xing }}" title="{{ .Site.Params.xing }} on Xing"> <i class='fa fa-xing'></i> <span class="label">Xing</span> </a>
         </li> {{ end }} {{ if .Site.Params.email }}
         <!-- Email -->
         <li class="navigation__item">

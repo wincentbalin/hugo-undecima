@@ -3,6 +3,11 @@ body
 	font-family: 'Crimson Text', serif;
 }
 
+div.navigation-wrapper nav.navigation--social
+{
+    vertical-align: top
+}
+
 .summary
 {
 	font-family: inherit;

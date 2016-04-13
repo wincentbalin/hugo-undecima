@@ -1,7 +1,7 @@
 hugo-undecima
 =============
 
-This is a variation of the [hugo-uno]{https://github.com/SenjinDarashiva/hugo-uno} theme.
+This is a variation of the [hugo-uno](https://github.com/SenjinDarashiva/hugo-uno) theme.
 
 
 ## License
